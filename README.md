@@ -1,4 +1,4 @@
-# bamazon
+# bamazon https://dinhdothuy.github.io/bamazon/
 This is an Amazon-like storefront created with the MySQL skills.
 The app will take in orders from customers and deplete stock from the store's inventory.
 
