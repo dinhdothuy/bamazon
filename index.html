@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<title>Bamazon App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+
+<body>
+
+    <div class = "container">
+        <header>
+            <br>
+            <h1>BAMAZON APP</h1>
+            <hr>
+        </header>
+    </div>
+
+    <div class = "container">
+
+        <p>This is an Amazon-like storefront created with the MySQL skills. The app will take in orders from customers and deplete stock from the store's inventory.</p>
+        <p>*** What BAMAZON APP Should Do:</p>
+        <hr>
+
+        <p><strong>Challenge #1: Customer View</strong></p>
+        <p>Customer View Create a MySQL Database called bamazon.</p>
+        <p>Then create a Table inside of that database called products.</p>
+        <p>The products table should have each of the following columns:</p>
+        <p>* item_id (unique id for each product)</p>
+        <p>* product_name (Name of product)</p>
+        <p>* department_name</p>
+        <p>* price (cost to customer)</p>
+        <p>* stock_quantity (how much of the product is available in stores)</p>
+
+        <img src="screenshot/Screen Shot 2018-11-29 at 11.00.06 PM.png" style="width:100%" class="w3-margin-bottom">
+        <hr>
+
+        <p>Populate this database with around 10 different products. (i.e. Insert "mock" data rows into this database and table).</p>
+        <p>Then create a Node application called bamazonCustomer.js. </p>
+        <p>Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.</p>
+        <p>The app should then prompt users with two messages.</p>
+        <p>** The first should ask them the ID of the product they would like to buy. </p>
+        <p>** The second message should ask how many units of the product they would like to buy.</p>
+
+        <img src="screenshot/Screen Shot 2018-11-29 at 11.01.21 PM.png" style="width:100%" class="w3-margin-bottom">
+        <hr>
+
+        <p>Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.</p>
+
+        <p>If your store does have enough of the product, you should fulfill the customer's order.</p>
+
+        <p>This means updating the SQL database to reflect the remaining quantity.</p>
+
+        <p>Once the update goes through, show the customer the total cost of their purchase.</p>
+        <img src="screenshot/Screen Shot 2018-11-29 at 11.01.51 PM.png" style="width:100%" class="w3-margin-bottom">
+        <p>Check back your database table, you will see:</p>
+        <img src="screenshot/Screen Shot 2018-11-29 at 11.21.58 PM.png" style="width:100%" class="w3-margin-bottom">
+
+        <hr>
+
+        <p>However, if your store does not have enough of the product, the app should log a phrase like <strong>"Insufficient quantity!"</strong>, and then prevent the order from going through, and ask the customer to buy other product again.</p>
+        <img src="screenshot/Screen Shot 2018-11-29 at 11.27.46 PM.png" style="width:100%">
+        <img src="screenshot/Screen Shot 2018-11-29 at 11.29.27 PM.png" style="width:100%" class="w3-margin-bottom">
+
+    </div>
+
+</body>
+
+</html>
